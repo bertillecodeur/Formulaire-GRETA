@@ -1,0 +1,147 @@
+body{
+	/*margin: 0;
+	padding: 0;*/
+	background-image: url("triangle.png");
+	}
+
+header {
+	color: #fff;
+	background-color: #20B2AA;
+	margin-top: -20px;
+	padding-left: 10px;
+	line-height: 40px;
+	text-align: left;
+}
+
+section{
+	display: block;
+	background: white;
+	width: 90%;
+	min-width: 500px;
+	text-align: center;
+	margin: 1% auto 1% auto;
+	border: 1px lightgrey solid;
+	font-family: 'Cinzel', serif;
+	font-size: 15px;
+}
+
+article{
+	display: inline-block;
+	width: 30%;
+	margin: 1%;
+    vertical-align: top;
+}
+
+aside {
+	display: inline-block;
+	text-align: right;
+}
+
+label {
+/*display: block;
+	margin-bottom: 40%;*/
+	width: 180px;
+	
+
+}
+
+input {
+	border-radius: 5px;
+}
+
+h1 {
+	margin-left: 30%;
+	margin-top: 1%;
+	color: white;
+	font-family: 'Cinzel', serif;
+	/*background-color: #20B2AA;*/
+
+}
+
+.position{
+	margin-top: 3.2%;
+
+}
+.position2{
+	width: 210px;
+	padding-left: 4%;
+}
+.position3{
+	width: 210px;
+}
+#progression 
+{
+	padding: 5%;
+	padding-left: 25%;
+}
+
+.test {
+	padding-left: 20px;
+}
+
+#Civilité {
+	padding-right: 0%;
+}
+
+#logo {
+	float: left;
+	margin-left: 5%;
+	margin-top: 0%;
+}
+
+#logo2 {
+	float: right;
+	margin-top: -3.7%;
+	margin-right: 5%;
+}
+
+#corps {
+	margin-top: -4%;
+}
+
+#ville {
+
+	padding-top: 45%;
+}
+
+#cpostal {
+	padding-top: 33%;
+}
+
+.formation {
+	margin-top: 1.2%;
+	margin-left: 1.7%;
+}
+
+
+.diplome {
+	margin-top:1.6%;
+}
+
+.initiale {
+	margin-top: -2%;
+}
+
+#bouton {
+	float: right;
+	margin-right: 4.8%;
+   background: linear-gradient(to top, darkgrey, 20%, #20B2AA); 
+
+}
+	
+.button{
+	  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+    background: linear-gradient(to top, darkgrey, 20%, #20B2AA); 
+
+	}
+
+.date{
+width: 165px;
+}

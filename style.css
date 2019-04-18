@@ -1,0 +1,64 @@
+#logo {
+	float: left;
+	margin-left: 5%;
+}
+
+#logo2 {
+	float: right;
+	margin-top: -3%;
+	margin-right: 5%;
+}
+
+
+h1 {
+	margin-left: 50px;
+}
+
+#progression 
+{
+	padding: 5%;
+	padding-left: 25%;
+
+}
+
+#cadre {
+	border: 2px solid black ; 
+	margin-left: 5%;
+	margin-top: -3%;
+	width: 90%;
+
+
+}
+
+
+.align {
+	margin-left: 1%;
+}
+
+.align2 {
+	margin-left: 20%
+}
+
+.alignleft{
+	margin-left: 5%;
+}
+
+.alignmiddle {
+	margin-left: 17%;
+}
+
+.alignright {
+	margin-left: 22%;
+}
+
+.nom {
+	margin-left: 10.2%;
+}
+
+.prenom {
+	margin-left: 9.2%;
+}
+
+.datenaiss {
+	margin-left: 
+}
