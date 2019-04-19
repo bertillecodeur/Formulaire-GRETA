@@ -1,0 +1,218 @@
+body{
+ /*min-width: 1800px;*/
+ background: url("http://www.greta-npdc.fr/wp-content/themes/greta/application/images/pattern/triangle.png");
+ background-size: cover;
+ background-repeat: no-repeat;
+}
+/*.cadre{
+	border: 1px solid black;
+	border-radius: 5px;
+}*/
+.grille{
+	display:grid;
+	grid-template-columns: 30% 40% 30%;
+	grid-template-rows: /* épaisseur première rangée*/ 10rem  /*seconde rangée réduit l'espace entre les grilles*/  ;
+	grid-gap: 1rem;
+	margin-left: 12%;
+	margin-right:18%;
+	font-family: "Cinzel", serif;
+	border-radius: 5px;
+
+}
+.grille2 {
+	display: grid;
+	font-family: arial;
+	grid-gap: 0rem; /*espace entre les grilles largeur*/
+	grid-template-columns : 10% 40% 10%10% ;/*colonnes honrizontalement*/
+	grid-template-rows: /* épaisseur première rangée*/ 14rem /*seconde rangée réduit l'espace entre les grilles*/ 0rem ;
+	margin-left: 5.4%;
+	margin-right: 3.3%;
+	margin-bottom: 2%;
+	border: 3px solid lightgrey;
+	background-color: white;
+	font-family: "Cinzel", serif;
+	border-radius: 5px;
+	margin-top: -2%;
+
+}
+.grille3{
+	display:grid;
+	grid-template-columns: 30% 40% 30%;
+	grid-template-rows: /* épaisseur première rangée*/ 10rem  /*seconde rangée réduit l'espace entre les grilles*/  ;
+	grid-gap: 1rem;
+	margin-left: 60.5px;
+	margin-right: 90px;
+	font-family: "Cinzel", serif;
+	color: white;
+}
+
+}
+.logo{
+	grid-column: 1; grid-row:1;
+	padding-left: 20%;
+}
+
+.onglet{
+	display: inline-block;
+	/*text-align: center;*/
+	/*width: 15%;*/
+	/*marge entre bouton*/
+	/*padding: 10%;*/
+	width: 60%;
+	padding-right: 30%;
+	padding:3% 30% 3% 40%;
+	text-align: center;
+
+
+}
+.identite{
+	margin-left:0%;
+	padding:4% 30% 4% 30%; 
+	font-family: "Cinzel", serif;
+	background:linear-gradient(to top, darkgrey, 20%, #20b2aa);
+	color: white;
+	line-height: 40px;
+	font-size: 16px;
+}
+
+.contrat{
+	margin-left: 13%;
+	padding:3% 25% 3% 30%;
+	text-align: center;
+	font-family: "Cinzel", serif;
+	background-color: #20b2aa;
+	color: white;
+	line-height: 40px;
+	background:linear-gradient(to top, darkgrey, 20%, #20b2aa);
+	font-size: 16px;
+}
+
+/*bouton piece jointe*/
+.pieceJointe{
+	text-align: center;
+	padding:4% 27% 4% 27%;
+	margin-left: 8%;
+	font-family: "Cinzel", serif;
+	background-color: #20b2aa;
+	color: white;
+	background:linear-gradient(to top, darkgrey, 20%, #20b2aa);
+	line-height: 40px;
+	font-size: 16px;
+}
+
+/*titre fiche*/
+.titre{
+	text-align: center;
+}
+h1{
+	grid-column: 1; grid-row: 2;
+}
+/*logo de droite*/
+.logo2{
+padding-left: 44%;	
+}
+/*bouton identité*/
+#identité{
+	grid-column: 1; grid-row: 1;
+}
+
+/*bouton contrat*/
+#contrat{
+	grid-column: 1; grid-row: 2;
+}
+
+header{
+	display: block;
+	margin-bottom: 2%;
+	padding: 1%;
+	width: 95%;
+}
+
+aside{
+	display: inline-block;
+	width: 33%;
+}
+.logo{
+	margin-left: 7%;
+}
+.logo2{
+	float: right;
+	margin-left: -7%;
+}
+
+/*Bouton joindre fichier pdf*/
+.pj{
+  margin-left: 75%;
+  text-align: right;
+  margin-top: -3%;
+  margin-bottom: 10.5%;
+  padding-right: 15%;
+  font-family: "Cinzel", serif; 
+ }
+.signature{
+	margin-left: -75%;
+}
+.date{
+	margin-left: 14%;
+}
+/* icone validation de la piece a gauche*/
+.valider{
+	width: 11%;
+	margin-top:4%;
+	margin-left: 160%;
+	padding: 1% 0% 4.5% 0%; 
+}
+/* croix ajouter*/
+.check{
+	display:block;
+	width: 35%;
+	margin-top: 0%;
+	margin-left:55%;
+	padding-bottom: 8%;
+		
+}
+/* nom des pieces justificatives*/
+.detail{
+	margin-top: 3%;
+	display: block;
+	font-size:0.9em;
+	padding-bottom:2%;
+	font-size: 15px;
+	margin-left: 40%;
+	
+
+}
+.info{
+	margin-top: 4%;
+	background-color: #20B2AA;
+	margin: 0 3.6% 2% 5.5%;
+	padding: 1%;
+	font-family: "Cinzel", serif;
+	font-size: 12px;
+}
+
+/* dernier cadre ou on renseigne la date etc..*/
+.fin{
+	
+	border: 2px solid lightgrey;
+	margin: 0 3.5% 0 5.5%;
+	padding: 1%;
+	background-color: white;
+	font-family: "Cinzel", serif;
+	font-size: 15px;
+}
+
+.suivant{
+	margin-left: 1735px;
+	margin-top: 9%;
+	font-family: "Cinzel", serif;
+	font-size:20px;
+	background:linear-gradient(to top, darkgrey, 20%, #20b2aa);
+}
+.precedent{
+margin-left:-560%;
+margin-top:-30%; 
+font-size:20px;
+font-family: "Cinzel", serif;
+background:linear-gradient(to top, darkgrey, 20%, #20b2aa);
+}
