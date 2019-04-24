@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<link rel="stylesheet" type="text/css" href="formulaire1.css">
+	<meta charset="utf-8">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+</head>
+<body>
+	
+
+<!--<img src="logogreta.png" id="logo">
+
+ <h1>  FICHE DE RENSEIGNEMENT PERSONNEL </h1>
+
+ <img src="logoprogre.png" id="logo2">
+
+<div id ="testlol">
+ <div id="progression">
+  <input type="button" value="Identité et formation" class="button" style="width: 28%; height: 50px; ">
+   <a href="Contrat.html" > <input type="button" value="Contrat et statut" class="button" style="width: 28%; height: 50px;"></a>
+   <a href="piece.html"> <input type="button" value="Pièces jointes et validation" class="button" style="width: 28%; height: 50px; "> </a>
+</div>-->
+
+	<span class="tête">
+		<section class="logo"><img class="logo" src="logogreta.png"></section>
+		<section class="titre"><h1>FICHE DE RENSEIGNEMENT PERSONNEL</h1></section>
+		<section class="logo2"><img class="logo2" src="logoprogre.png"></section>
+	</span>
+
+	<form name="e" class="btn">
+		<a href="formulaire1.html" class="button">Identité et formation</a>
+		<a href="Contrat.html"  class="button">Contrat et statut</a>
+		<a href="" class="button">Pièces jointes et validation</a>
+	</form>
+
+<div id="corps">
+	<section>
+		<header>
+			<h2>Identité </h2>
+		</header>
+		<article>
+			<aside>
+			 <form>
+				<label id="Civilité">Civilité :</label> <input type="checkbox">Madame <input type="checkbox">Monsieur <br><br>
+				<label for="nom">Nom:</label> <input type="text" name="nom" id="nom" required><span id="missNom"></span> <br><br>
+				<label for ="nomNaiss">Nom de naissance:</label> <input type="text" name="nomNaiss" id="nomNaiss" required><span id="missNomnaiss"></span> <br><br>
+				<label for="prenom">Prénom:</label> <input type="text" name="prenom" id="prenom" required> <span id="missPrenom"></span> <br><br>
+				<label>Date de Naissance:</label> <input class="date" type="Date"> <br><br>
+				<label>Lieu de Naissance:</label> <input type="text" name="fullname"> <br><br>
+				<label>Département de Naissance:</label> <input type="text" name="fullname"> <br><br>
+				<br>
+				<h4><u> Lieu d'affectation principal :</u> </h4>
+				<label>Etablissement:</label> <input type="text" name="fullname"> <br><br>
+			 </form>
+			</aside>
+			
+
+		</article>
+		<article class="position">
+			<aside>
+				<label>Adresse:</label> <input type="text" name="fullname"> <br><br>
+				<label>Ville:</label> <input type="text" name="fullname"> <br><br>
+				<label>Code Postal:</label> <input type="text" name="fullname"> <br><br>
+				<label>Pays:</label> <input type="text" name="fullname"> <br><br>
+				<label>N°Tel:</label> <input type="text" name="fullname"> <br><br>
+								<div id="ville">
+				<label>Ville:</label> <input type="text" name="fullname"> <br><br>
+			</div>
+			</aside>
+		</article>
+		<article class="position"> 
+		<aside>
+				<label>N°INSEE + CLE:</label> <input type="text" name="fullname"> <br><br>
+				<label>Date de début d'activité:</label> <input class="date"type="date"> <br><br>
+				<label>Adresse mail académique:</label> <input type="text" name="fullname"> <br><br>
+				<label>Adresse mail perso:</label> <input type="text" name="fullname"> <br><br>
+				<label>Nombre d'enfants:</label> <input type="text" name="fullname" > <br><br>
+				<div id="cpostal">
+				<label>Code Postal :</label> <input type="text" name="fullname"> <br><br>
+			</div>
+		</aside>
+
+			</article>
+	</section>
+
+
+
+
+	<section>
+		<header>
+			<h2>Formation initiale et continue </h2>
+		</header>
+		<article class="diplome">
+			
+			 <form>
+				<label class="position2">Diplôme obtenu :</label>
+				<select class="position2"name="select"> 
+					<option>Aucun diplôme (Code 8 - Niv 5bis)</option>
+					<option>Beta</option>
+					<option>Delta</option>
+				</select> <br> <br>
+				<label>Intitulé du dipôme :</label> <input class="position3" type="text" name="fullname" size="26"> <br><br>
+
+
+		</article>
+		<article class="initiale">
+			<p class="format"><u>Formation initiale : </u></p>
+			<label>Du</label>  <input class="date" type="date" ><label> Au </label><input class="date" type="date"> <br><br>
+			<label>Du </label> <input class="date" type="date" > <label>Au</label> <input class="date" type="date"> <br><br>
+			<label>Du  </label><input class="date" type="date" ><label> Au </label><input class="date" type="date"> <br><br>
+		</article>
+		<article class="formation">
+			<label>Intitulé de la formation :</label> <input type="text" name="fullname"> <br><br>
+			<label>Intitulé de la formation :</label> <input type="text" name="fullname"> <br><br>
+			<label>Intitulé de la formation :</label> <input type="text" name="fullname"> <br><br>
+		</article>
+	</section>
+
+
+  <a href="Contrat.html"> <INPUT TYPE="button"  VALUE="Suivant" id="bouton" > </a>
+  <br>
+  <br>
+</div>
+</div>
+
+ <script>
+	
+
+var formValid = document.getElementById('bouton');
+
+
+var nom = document.getElementById('nom');
+var missNom = document.getElementById('missNom');
+
+var nomNaiss = document.getElementById('nomNaiss');
+var missNomnaiss = document.getElementById('missNomnaiss');
+
+var prenom = document.getElementById('prenom');
+var missPrenom = document.getElementById('missPrenom');
+
+
+
+
+
+
+formValid.addEventListener('click',validation);
+
+
+function validation(event) {
+	if (nom.validity.valueMissing && nomNaiss.validity.valueMissing && missPrenom ) {
+		event.preventDefault();
+		missNom.textContent= "*";
+		missNom.style.color = "red";
+
+		missNomnaiss.textContent= "*";
+		missNomnaiss.style.color = "red";
+
+		missPrenom.textContent= "*";
+		missPrenom.style.color = "red";
+	}
+
+}
+</script> 
+
+
+</body>
+</html>

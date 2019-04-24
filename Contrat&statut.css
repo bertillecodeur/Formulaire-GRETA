@@ -1,0 +1,233 @@
+body {
+	background: url(triangle.png) no-repeat center center fixed;
+	background-size: cover;
+}
+
+.un {
+	display: block;
+	background: white;
+	text-align: left;
+	font-family: 'Cinzel', serif;
+	font-size: 15px;
+	border-width: 2px 2px 0px 2px;
+	border-color: lightgrey;
+	border-style: solid;
+}
+
+.un h1 {
+	text-align: left;
+	background-color: #20b2aa;
+	color: white;
+	padding: 5px;
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+p {
+	text-align: left;
+	margin-left: 200px;
+	text-decoration: underline;
+}
+
+b {
+	text-align: left;
+	margin-left: 200px;
+}
+
+article {
+	display: inline-block;
+	width: auto;
+	margin: 0.5%;
+	vertical-align: top;
+	text-align: left;
+}
+
+.grille4 {
+	display:grid;
+	grid-template: 100%;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 15px;
+}
+
+.i {
+	margin-left: 395px;
+}
+
+.grille1 {
+	display: grid;
+	grid-template: 100%;
+	padding: 5px 100px 0px 200px;
+	background-color: white;
+	margin-left: 150px;
+	margin-right: 150px;
+	font-family: 'Cinzel', serif;
+	border-width: 0px 2px 0px 2px;
+	border-color: lightgrey;
+	border-style: solid;
+}
+
+.grille2 {
+	display: grid;
+	grid-template: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.grille2 section {
+	padding-left: 150px;
+}
+
+.c {
+	background: white;
+	font-family: 'Cinzel', serif;
+	border-width: 0px 2px 2px 2px;
+	border-color: lightgrey;
+	border-style: solid;
+}
+
+.b {
+	margin-top: 5px;
+	width: 300px;
+	margin-left: 250px;
+}
+
+.a {
+	width: 300px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	margin-left: 357px;
+}
+
+.d {
+	width: 300px;
+}
+
+.e {
+	width: 300px;
+}
+
+.contrat input {
+	width: 300px;
+	height: 20px;
+}
+
+select {
+	width: 300px;
+}
+
+.contrat label {
+	display: inline-block;
+	width: 300px;
+	padding: 0px 0px 10px 4px;
+	text-align: right;
+}
+
+.f {
+	margin-left: 30px;
+}
+
+.grille3 {
+	display: grid;
+	grid-template: 100%;
+	padding: 15px 100px 0px 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+	/*border: 2px lightgrey solid;*/
+}
+.grille3 .un {
+	border: 2px lightgrey solid;
+	border-radius: 5px;
+}
+
+.deux {
+	margin-left: 200px;
+}
+
+.lettre input {
+	width: 300px;
+	height: 20px;
+}
+
+.lettre label {
+	display: inline-block;
+	width: 300px;
+	padding: 5px 0px 10px 15px;
+	text-align: right;
+}
+
+.button {
+	background-color: #4caf50;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	background: linear-gradient(to top, darkgrey, 20%, #20b2aa);
+	width: 25.9%; 
+	height: 25px;
+	margin-right: 15px;
+	font-family: 'Cinzel', serif;
+	font-weight: bold;
+	border: 2px solid lightgrey;
+	border-radius: 5px;
+}
+
+.btn {
+	margin-left: 150px;
+}
+
+#bouton1 {
+	float: right;
+	margin-right: 150px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background: linear-gradient(to top, darkgrey, 20%, #20b2aa);
+	color: white;
+	font-size: 20px;
+	font-family: 'Cinzel', serif;
+	font-weight: bold;
+}
+
+#bouton2 {
+	float: left;
+	margin-left: 150px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background: linear-gradient(to top, darkgrey, 20%, #20b2aa);
+	color: white;
+	font-size: 20px;
+	font-family: 'Cinzel', serif;
+	font-weight: bold;
+}
+
+.tête{
+	display:grid;
+	font-family:arial;
+	grid-template-columns: 20% 60% 20%;
+	grid-template-rows: 7rem;
+	margin-left: 150px;
+	margin-right: 150px;
+}
+
+.logo {
+	float: left;
+}
+
+.titre {
+	text-align: center;
+	font-family: 'Cinzel', serif;
+	font-size: 20px;
+}
+
+.logo2 {
+	float: right;
+}
+
+input, select {
+	border-radius: 5px;
+}

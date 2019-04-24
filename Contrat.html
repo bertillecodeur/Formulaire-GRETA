@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="Contrat&statut.css">
+	<link href="https://fonts.googleapis.com/css?family=Cinzel" rel="stylesheet">
+</head>
+
+<script type="text/javascript">
+	
+	function test() {
+  		var m=0;
+  		for (i=1;i<7;i++) {
+  		if (eval("document.forms.e.checkbox"+i+".checked == true")){
+  		m=m+1;
+  			}
+  		}
+  		if (m>=1) {
+    		alert("checkbox cocher !");
+  		}
+  		else {
+    		alert("Checkbox non cocher !");
+  		}
+	}
+
+</script>
+
+<body>
+	<span class="tête">
+		<section class="logo"><img class="logo" src="logogreta.png"></section>
+		<section class="titre"><h1>FICHE DE RENSEIGNEMENT PERSONNEL</h1></section>
+		<section class="logo2"><img class="logo2" src="logoprogre.png"></section>
+	</span>
+
+	<form name="e" class="btn">
+		<a href="formulaire1.html" class="button">Identité et formation</a>
+		<a href="Contrat.html"  class="button">Contrat et statut</a>
+		<a href="" class="button">Pièces jointes et validation</a>
+	</form>
+
+	<span class="grille4">
+		<section class="un">
+			<h1>Contrat & Statut</h1>
+			<b>Fonction occupée : </b><br>
+			<article class="i">
+				<label>Intervenants : </label>
+				<input type="checkbox" name="checkbox1" value="checkbox"><label>Formateur</label>
+				<input type="checkbox" name="checkbox2" value="checkbox"><label>Conseiller bilan</label>
+				<input type="checkbox" name="checkbox3" value="checkbox"><label>Accompagnateur VAE</label>
+			</article>
+		</section>	
+	</span>
+
+	<span class="grille1">
+		<section>
+			<article>
+				<aside class="contrat">
+					<label>Administratif/autre personnel : </label>
+					<input type="text" name=""><br>
+					<label>Statut : </label>
+					<select>
+						<option> - </option>
+						<option>Poste gagé titulaire</option>
+						<option>Vacataire non titulaire mis à disposition</option>
+						<option>Contractuel en CDI</option>
+						<option>Contractuel en CDD</option>
+						<option>Sous traitant ou auto-entrepreneur</option>
+						<option>Vacataire non titulaire</option>
+						<option>Vacataire titulaire en HS</option>
+					</select><br>
+					<label>Grade : </label>
+					<input type="text" name="">
+				</aside>
+			</article>
+
+			<article class="f">
+				<aside class="contrat">
+					<label>Quotité : </label>
+					<input type="text" name=""><br>
+					<label>Catégorie : </label>
+					<select>
+						<option> - </option>
+						<option style="color: grey;">Enseignant</option>
+						<option style="color: grey;">----------------------------------</option>
+						<option>Agrégé</option>
+						<option>Certifié</option>
+						<option>PLP</option>
+						<option>PEGC</option>
+						<option>Instituteur, Professeur des écoles</option>
+						<option>Conseiller d'orientation</option>
+						<option>Personnel d'éducation autre</option>
+						<option></option>
+						<option style="color: grey;">Direction</option>
+						<option style="color: grey;">----------------------------------</option>
+						<option>Personnel de direction</option>
+						<option>Chef des travaux</option>
+						<option>Pers. Admin Titulaire autre que P.Direction</option>
+						<option>Pers. Admin titulaire : autre</option>
+						<option></option>
+						<option style="color: grey;">Contractuel</option>
+						<option style="color: grey;">----------------------------------</option>
+						<option>Contractuels CDD ou CDI 1ère cat.</option>
+						<option>Contractuels CDD ou CDI 2ème cat.</option>
+						<option>Contractuels CDD ou CDI 3ème cat.</option>
+						<option></option>
+						<option style="color: grey;">Autres</option>
+						<option style="color: grey;">----------------------------------</option>
+						<option>Personnel de service</option>
+						<option>Personnel d'inspection</option>
+						<option>Autres postes gagé titulaire ou titulaire HS</option>
+						<option>Personnel non titulaire</option>
+						<option>Prestataire de service ou auto- entrepreneur</option>
+					</select><br>
+					<label>Indice : </label>
+					<input type="text" name=""><br>
+				</aside>
+			</article>
+		</section>
+	</span>
+	<span class="grille2">
+		<section class="c">
+			<article>
+				<label>Matière Eneignées en formation initiale :</label>
+				<input class="e" type="text" name=""><label> / </label><input class="d" type="text" name=""><br>
+				<input class="a" type="text" name=""><label> / </label><input class="d" type="text" name="">
+			</article>
+		</section>
+	</span>
+
+	<span class="grille3">
+		<section class="un">
+			<h1>Lettre d'engagement :</h1>
+			<p>Action 1 - S1 :</p>
+			<article class="deux">
+				<aside class="lettre">
+	            	<label>Intitulé de l'action : </label>
+	            	<input type="text"><br>
+	            	<label>Centre de production : </label>
+	            	<input type="text"><br>
+	            	<label>Date de début : </label>
+	            	<input type="date"><br>
+	            	<label>Etablissement : </label>
+	            	<input type="text"><br>
+	            	<label>Nbre heures Enseignement : </label>
+	            	<input type="text"><br>
+	            	<label>Nbre heures Périphérique : </label>
+	            	<input type="text"><br>
+	            </aside>
+	        </article>
+
+	        <article>
+	            <aside class="lettre">
+	            	<label>Niveau : </label>
+	            	<input type="text"><br><br><br>
+	            	<label>Date de fin : </label>
+	            	<input type="date"><br>
+	            	<label>Ville : </label>
+	            	<input type="text"><br>
+	            	<label>Taux horaire : </label>
+	            	<input type="text">
+	            </aside>
+			</article>
+		</section>
+	</span>
+
+<a href="piece.html"><input type="submit" value="Suivant" id="bouton1" onClick="test()"></a>
+<a href="formulaire1.html"><input type="submit" value="Précédent" id="bouton2"></a>
+
+</body>
+</html>
