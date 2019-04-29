@@ -3,173 +3,26 @@ body {
 	background-size: cover;
 }
 
-header {
-	color: #fff;
-	background-color: #20B2AA;
-	margin-top: -20px;
-	padding-left: 10px;
-	line-height: 40px;
+.date{
+	width: 190px;
+	margin-bottom: 5px;
+}
+
+article {
+	display: inline-block;
+	width: auto;
+	margin: 0.5%;
+	vertical-align: top;
 	text-align: left;
-}
-
-section{
-	display: block;
-	background: white;
-	width: 90%;
-	min-width: 500px;
-	text-align: center;
-	margin: 1% auto 1% auto;
-	border: 2px lightgrey solid;
-	font-family: 'Cinzel', serif;
-	font-size: 15px;
-}
-
-article{
-	display: inline-block;
-	width: 30%;
-	margin: 1%;
-    vertical-align: top;
-}
-
-aside {
-	display: inline-block;
-	text-align: right;
-}
-
-label {
-/*display: block;
-	margin-bottom: 40%;*/
-	width: 180px;
-	
-
 }
 
 input {
 	border-radius: 5px;
-	font-family: 'Cinzel', serif;
-
 }
 
-/*h1 {
-	margin-left: 35%;
-	margin-top: 1%;
-	margin-bottom: 100px;
-	color: white;
-	font-family: 'Cinzel', serif;
-	/*background-color: #20B2AA;*/
-
-/*}*/
-
-.position{
-	margin-top: 3.2%;
-
-}
-.position2{
-	width: 210px;
-	padding-left: 4%;
-}
-.position3{
-	width: 210px;
-}
-#progression 
-{
-	padding-bottom: 10px;
-	padding-left: 200px;
-	
-	padding-top: -110px;
-	margin-top: -1%;
-
-}
-
-.test {
-	padding-left: 20px;
-}
-
-#Civilité {
-	padding-right: 0%;
-}
-
-/*#logo {
-	float: left;
-	margin-left: 5%;
-	margin-top: -0.7%;
-}
-
-#logo2 {
-	float: right;
-	margin-top: -7.7%;
-	margin-right: 5%;
-}*/
-
-#corps {
-	margin-top: %;
-}
-
-#ville {
-
-	padding-top: 45%;
-}
-
-#cpostal {
-	padding-top: 33%;
-}
-
-.formation {
-	margin-top: 1.2%;
-	margin-left: 1.7%;
-}
-
-
-.diplome {
-	margin-top:1.6%;
-}
-
-.initiale {
-	margin-top: -2%;
-}
-
-#bouton {
-	float: right;
-	margin-right: 100px;
-	margin-top: -8px;
-	margin-bottom: 15px;
-	color: white;
-	font-size: 20px;
-	font-family: 'Cinzel', serif;
-	font-weight: bold;
-   background: linear-gradient(to top, darkgrey, 20%, #20B2AA); 
-
-}
-	
-/*.button{
-	  background-color: #4CAF50; 
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-    background: linear-gradient(to top, darkgrey, 20%, #20B2AA); */
-
-/*background-color: #4caf50;
-	border: none;
-	color: white;
-	padding: 15px 32px;
-	text-align: center;
-	text-decoration: none;
-	display: inline-block;
-	font-size: 16px;
-	background: linear-gradient(to top, darkgrey, 20%, #20b2aa);
-	width: 25%; 
-	height: 50px;
-	margin-right: 15px;
-	font-family: 'Cinzel', serif;
-	font-weight: bold;
-	}*/
-
-.date{
-width: 165px;
+select {
+	border-radius: 5px;
+	width: 195px;
 }
 
 .tête{
@@ -193,7 +46,6 @@ width: 165px;
 
 .logo2 {
 	float: right;
-	margin-right: 120px;
 }
 
 .button {
@@ -217,4 +69,178 @@ width: 165px;
 
 .btn {
 	margin-left: 150px;
+}
+
+.un {
+	display: block;
+	background: white;
+	text-align: left;
+	font-family: 'Cinzel', serif;
+	font-size: 15px;
+	border-width: 2px 2px 0px 2px;
+	border-color: lightgrey;
+	border-style: solid;
+}
+
+.un h1 {
+	text-align: left;
+	background-color: #20b2aa;
+	color: white;
+	padding: 5px;
+	margin-top: 0px;
+	font-weight: bold;
+}
+
+.i {
+	margin-left: 205px;
+	font-size: 13px;
+}
+
+.identité input {
+	width: 190px;
+	height: 20px;
+}
+
+.identité label {
+	display: inline-block;
+	width: 200px;
+	padding: 0px 0px 10px 4px;
+	text-align: right;
+	font-size: 13px;
+}
+
+
+.grille1 {
+	display: grid;
+	grid-template: 100%;
+	padding: 0px 100px 0px 50px;
+	background-color: white;
+	margin-left: 150px;
+	margin-right: 150px;
+	font-family: 'Cinzel', serif;
+	border-width: 0px 2px 0px 2px;
+	border-color: lightgrey;
+	border-style: solid;
+}
+
+.nomNaiss {
+	margin-left: 5px;
+}
+
+.iddeux {
+	margin-left: 50px;
+}
+
+.idtrois {
+	margin-left: 100px;
+}
+
+.grille4 {
+	display:grid;
+	grid-template: 100%;
+	padding-left: 150px;
+	padding-right: 150px;
+	padding-top: 15px;
+}
+
+.c {
+	background: white;
+	font-family: 'Cinzel', serif;
+	border-width: 0px 2px 2px 2px;
+	border-color: lightgrey;
+	border-style: solid;
+	font-size: 13px;
+}
+
+.ba {
+	margin-left: 150px;
+}
+
+.bb {
+	margin-left: 175px;
+}
+
+.bc {
+	margin-left: 275px;
+}
+
+.ab {
+	margin-left: 45px;
+}
+
+.ac {
+	width: 190px;
+}
+.af {
+	margin-bottom: 10px;
+}
+
+.grille2 {
+	display: grid;
+	grid-template: 100%;
+	padding-left: 100px;
+	padding-right: 100px;
+	margin-left: 50px;
+	margin-right: 50px;
+}
+
+.j {
+	margin-left: 585px;
+	font-size: 13px;
+}
+
+.grille3 {
+	display: grid;
+	grid-template: 100%;
+	padding: 0px 100px 0px 50px;
+	background-color: white;
+	margin-left: 150px;
+	margin-right: 150px;
+	font-family: 'Cinzel', serif;
+	border-width: 0px 2px 2px 2px;
+	border-color: lightgrey;
+	border-style: solid;
+	font-size: 13px;
+}
+
+.formation input {
+	width: 190px;
+	height: 20px;
+}
+
+.formation label {
+	display: inline-block;
+	width: 200px;
+	padding: 0px 0px 10px 4px;
+	text-align: right;
+	font-size: 13px;
+}
+
+.ca {
+	margin-left: 105px;
+}
+
+.ca input {
+	margin-bottom: 10px;
+}
+
+.cb {
+	margin-left: 25px;
+}
+
+.cb input {
+	width: 190px;
+	margin-bottom: 10px;
+}
+
+#bouton1 {
+	float: right;
+	margin-right: 150px;
+	margin-top: 15px;
+	margin-bottom: 15px;
+	background: linear-gradient(to top, darkgrey, 20%, #20b2aa);
+	color: white;
+	font-size: 20px;
+	font-family: 'Cinzel', serif;
+	font-weight: bold;
 }
