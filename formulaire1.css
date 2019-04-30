@@ -170,6 +170,7 @@ select {
 
 .ac {
 	width: 190px;
+	margin-bottom: 1%;
 }
 .af {
 	margin-bottom: 10px;
@@ -187,6 +188,8 @@ select {
 .j {
 	margin-left: 585px;
 	font-size: 13px;
+	margin-top: -1%;
+	margin-bottom: -0.6%;
 }
 
 .grille3 {
@@ -226,6 +229,7 @@ select {
 
 .cb {
 	margin-left: 25px;
+	margin-bottom: 5%;
 }
 
 .cb input {

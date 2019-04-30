@@ -54,11 +54,12 @@ body{
 	background: white;
 	margin-left: 150px;
 	margin-right: 150px;
-	margin-bottom: 15px;
+	margin-bottom: 10px;
 	border-width: 0px 2px 2px 2px;
 	border-color: lightgrey;
 	border-style: solid;
 	font-family: 'Cinzel', serif;
+
 }
 
 .identite{
@@ -175,13 +176,14 @@ aside{
 .fin{
 
 	border: 2px solid lightgrey;
-	margin: 0% 5% 0 5.5%;
+	margin: -1.5% 5% 0 5.5%;
 	padding: 1%;
 	background-color: white;
 	font-family: "Cinzel", serif;
 	font-size: 15px;
 	margin-left: 150px;
 	margin-right: 150px;
+
 }
 
 #bouton1 {

@@ -125,7 +125,7 @@
 		</section>
 	</span>
 	
-	<a href="Contrat.html"><input type="submit" value="Suivant" id="bouton1" onClick="test()"></a>
+	<a href="Contrat.html"><input type="submit" value="Suivant" id="bouton1" ></a>
 
 <script>
 	
@@ -151,7 +151,7 @@
 
 
 	function validation(event) {
-		if (nom.validity.valueMissing && nomNaiss.validity.valueMissing && missPrenom ) {
+		if (nom.validity.valueMissing && nomNaiss.validity.valueMissing) {
 			event.preventDefault();
 			missNom.textContent= "*";
 			missNom.style.color = "red";
@@ -159,8 +159,7 @@
 			missNomnaiss.textContent= "*";
 			missNomnaiss.style.color = "red";
 
-			missPrenom.textContent= "*";
-			missPrenom.style.color = "red";
+			
 		}
 
 	}

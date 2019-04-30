@@ -78,10 +78,12 @@ article {
 	padding-right: 100px;
 	margin-left: 50px;
 	margin-right: 50px;
+
 }
 
 .grille2 section {
 	padding-left: 145px;
+	padding-bottom: 0.6%;
 }
 
 .c {
@@ -143,9 +145,10 @@ select {
 .grille3 {
 	display: grid;
 	grid-template: 100%;
-	padding: 15px 100px 0px 100px;
+	padding: 10px 100px 0px 100px;
 	margin-left: 50px;
 	margin-right: 50px;
+
 	/*border: 2px lightgrey solid;*/
 }
 .grille3 .un {
@@ -156,6 +159,9 @@ select {
 	margin-left: 200px;
 }
 
+.lettre {
+	margin-bottom: 3%;
+}
 .lettre input {
 	width: 190px;
 	height: 20px;
